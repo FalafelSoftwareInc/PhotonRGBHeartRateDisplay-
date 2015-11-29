@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>NUSZPRO3</Machine>
+    <WindowsUser>Bary</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows Phone 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>401e3bfb-f66f-4441-9e5e-b67db063d8f5</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Bary\OneDrive\Projects\WP8PhotonHeartRate\WP8PhotonHeartRate\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Bary\OneDrive\Projects\WP8PhotonHeartRate\WP8PhotonHeartRate\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Bary\OneDrive\Projects\WP8PhotonHeartRate\WP8PhotonHeartRate\bin\Debug\WP8PhotonHeartRate.exe">
+      <PackagePath>WP8PhotonHeartRate.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bary\OneDrive\Projects\WP8PhotonHeartRate\packages\Microsoft.Band.1.3.10929\lib\wpa81\Microsoft.Band.dll">
+      <PackagePath>Microsoft.Band.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bary\OneDrive\Projects\WP8PhotonHeartRate\packages\Microsoft.Band.1.3.10929\lib\wpa81\Microsoft.Band.Phone.dll">
+      <PackagePath>Microsoft.Band.Phone.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bary\OneDrive\Projects\WP8PhotonHeartRate\packages\Microsoft.Band.1.3.10929\lib\wpa81\Microsoft.Band.Store.dll">
+      <PackagePath>Microsoft.Band.Store.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bary\OneDrive\Projects\WP8PhotonHeartRate\WP8PhotonHeartRate\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bary\OneDrive\Projects\WP8PhotonHeartRate\WP8PhotonHeartRate\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bary\OneDrive\Projects\WP8PhotonHeartRate\WP8PhotonHeartRate\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bary\OneDrive\Projects\WP8PhotonHeartRate\WP8PhotonHeartRate\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bary\OneDrive\Projects\WP8PhotonHeartRate\WP8PhotonHeartRate\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bary\OneDrive\Projects\WP8PhotonHeartRate\WP8PhotonHeartRate\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bary\OneDrive\Projects\WP8PhotonHeartRate\WP8PhotonHeartRate\bin\Debug\WP8PhotonHeartRate.xr.xml">
+      <PackagePath>WP8PhotonHeartRate.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bary\OneDrive\Projects\WP8PhotonHeartRate\WP8PhotonHeartRate\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bary\OneDrive\Projects\WP8PhotonHeartRate\WP8PhotonHeartRate\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bary\OneDrive\Projects\WP8PhotonHeartRate\packages\Microsoft.Band.1.3.10929\lib\wpa81\Microsoft.Band.Phone\Microsoft.Band.Phone.xr.xml">
+      <PackagePath>Microsoft.Band.Phone\Microsoft.Band.Phone.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bary\OneDrive\Projects\WP8PhotonHeartRate\packages\Microsoft.Band.1.3.10929\lib\wpa81\Microsoft.Band.Phone\Sensors\PhoneSensorConsentPage.xbf">
+      <PackagePath>Microsoft.Band.Phone\Sensors\PhoneSensorConsentPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bary\OneDrive\Projects\WP8PhotonHeartRate\packages\Microsoft.Band.1.3.10929\lib\wpa81\Microsoft.Band.Phone\Tiles\PhoneAddTilePage.xbf">
+      <PackagePath>Microsoft.Band.Phone\Tiles\PhoneAddTilePage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bary\OneDrive\Projects\WP8PhotonHeartRate\packages\Microsoft.Band.1.3.10929\lib\wpa81\Microsoft.Band.Store\Microsoft.Band.Store.xr.xml">
+      <PackagePath>Microsoft.Band.Store\Microsoft.Band.Store.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bary\OneDrive\Projects\WP8PhotonHeartRate\packages\Microsoft.Band.1.3.10929\lib\wpa81\Microsoft.Band.Store\Sensors\SensorConsentPage.xbf">
+      <PackagePath>Microsoft.Band.Store\Sensors\SensorConsentPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bary\OneDrive\Projects\WP8PhotonHeartRate\packages\Microsoft.Band.1.3.10929\lib\wpa81\Microsoft.Band.Store\Tiles\AddTilePage.xbf">
+      <PackagePath>Microsoft.Band.Store\Tiles\AddTilePage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bary\OneDrive\Projects\WP8PhotonHeartRate\WP8PhotonHeartRate\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
