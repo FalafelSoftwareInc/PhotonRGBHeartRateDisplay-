@@ -1,0 +1,58 @@
+﻿// This #include statement was automatically added by the Particle IDE.
+#include "rgb-controls/rgb-controls.h"
+
+#define REDPIN D0
+#define GREENPIN D1
+#define BLUEPIN D2
+using namespace RGBControls;
+
+Led led(REDPIN, GREENPIN, BLUEPIN);
+Color currentColor(255, 0, 0);
+int heartRate;
+Color noColor(0, 0, 0);
+Color blueColor(0, 0, 255);
+
+void setup() {
+    bool success = Particle.function("setRGBHR", setRGBHR);
+    heartRate = 120;
+    //currentColor = blueColor;
+}
+
+void loop() {
+    int fullDelay = 60000 / heartRate;
+    int quarterDelay = fullDelay * 0.25;
+
+    led.fadeOnce(noColor, currentColor, quarterDelay);
+    delay(quarterDelay);
+    led.fadeOnce(currentColor, noColor, quarterDelay);
+    delay(quarterDelay);
+}
+
+int setRGBHR(String command)
+{
+    Particle.publish("setRGBHR", command);
+    //Data comes in the format "{R},{G},{B},{HR}"
+    int commaIndex = command.indexOf(',');
+    //Strip the red color from the string
+    String red = command.substring(0,commaIndex);
+    
+    command = command.substring(commaIndex+1);
+    commaIndex = command.indexOf(',');
+    //Strip the green color from the string
+    String green = command.substring(0,commaIndex);
+    
+    command = command.substring(commaIndex+1);
+    commaIndex = command.indexOf(',');
+    //Strip the blue color from the string
+    String blue = command.substring(commaIndex);
+    
+    //Strip the heartrate from the string
+    String hr = command.substring(commaIndex+1);
+    heartRate = hr.toInt();
+
+    Color newColor(red.toInt(), green.toInt(), blue.toInt());
+    //What's new is old now
+    currentColor = newColor;
+    
+    return 1;
+}
